@@ -11,9 +11,11 @@ public class Player {
 	private Sprite player;
 	private int speed;
 	private float x,y;
+	private int pID;
 
-	public Player() {
+	public Player(int pID) {
 		this.player = new Sprite(new Texture("ann.png"));
+		this.pID = pID;
 	}
 
 	public void render(SpriteBatch batch) {

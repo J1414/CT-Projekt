@@ -19,7 +19,7 @@ public class Game extends ApplicationAdapter {
 	public void create() {
 		batch = new SpriteBatch();
 		thc = new Sprite(new Texture("THC Schriftzug.png"));
-		player = new Player();
+		player = new Player(0);
 	}
 
 	@Override
